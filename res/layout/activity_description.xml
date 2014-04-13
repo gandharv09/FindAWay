@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:orientation="vertical">
+    
+ <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/card_background_2" 
+    android:layout_marginTop="5dp">
+
+    
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f47629"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         android:layout_marginRight="120dp"/>
+    
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Description"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:background="#2a2a2e"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background" 
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/Coupan"
+       
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/coupan" />
+    
+    <TextView
+        android:id="@+id/Discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Discount"
+        android:textSize="16dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/dis_cp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="10dp" />
+    
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/card_background" 
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/phone"
+       
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/phone" />
+    
+    <TextView
+        android:id="@+id/Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Contact"
+        android:textSize="16dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:autoLink="phone"
+        android:inputType="phone"
+        android:textColor="#3d3d44"
+        android:textSize="12dp" />
+    
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/card_background" 
+    
+    android:padding="1dp">
+    
+     <ImageView
+        android:id="@+id/Valid"
+       
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/calender" />
+    
+    <TextView
+        android:id="@+id/Validity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Discount Validity"
+        android:textSize="16dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3d3d44"
+        android:textSize="12dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"/>
+    
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/card_background" 
+    
+    android:padding="1dp">
+    <ImageView
+        android:id="@+id/web"
+       
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/web" />
+    
+    <TextView
+        android:id="@+id/Zomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        
+        android:text="Zomato Weblink"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/Link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4e4eee"
+        android:textSize="12dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"/>
+    
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background" 
+    
+    android:padding="1dp">
+    <ImageView
+        android:id="@+id/Terms"
+       
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_action_about" />
+    
+    <TextView
+        android:id="@+id/Condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        
+        android:text="Terms and Conditions"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/Shart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textSize="10dp" />
+    
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/card_background">
+
+     <ImageView
+         android:id="@+id/mapbutton"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:clickable="true"
+         android:src="@drawable/places" />
+
+     <TextView
+         android:id="@+id/MapView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/mapbutton"
+         android:layout_centerHorizontal="true"
+         android:text="Click here for Restaurant Location"
+         android:textColor="#000000"
+         android:textSize="12dp" />
+
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>
